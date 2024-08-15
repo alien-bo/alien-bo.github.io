@@ -5,7 +5,6 @@ export default defineConfig({
   title: "Alien",
   description: "Alien description",
   srcDir: './src',
-  // base: '/alien.github.io/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
