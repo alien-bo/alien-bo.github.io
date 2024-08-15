@@ -4,15 +4,14 @@ layout: home
 
 hero:
   name: "Alien"
-  text: "Alien's description"
-  tagline: My great project tagline
+  text: "Alien的个人网站"
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Markdown示例
+      link: /zh/markdown-examples
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: API示例
+      link: /zh/api-examples
 
 features:
   - title: Feature A

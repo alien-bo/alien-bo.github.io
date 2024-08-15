@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Alien",
-  description: "Alien description",
+  description: "Alien\'s description",
   srcDir: './src',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -25,5 +25,40 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/alien-bo' }
     ]
+  },
+  locales: {
+    root: {
+      label: 'English',
+      lang: 'en',
+      title: 'Alien',
+      description: 'Alien\'s description',
+    },
+    zh: {
+      label: '简体中文',
+      lang: 'zh',
+      title: 'Alien',
+      description: 'Alien的个人网站',
+      themeConfig: {
+        // https://vitepress.dev/reference/default-theme-config
+        nav: [
+          { text: '主页', link: '/zh/' },
+          { text: '示例', link: '/zh/markdown-examples' }
+        ],
+    
+        sidebar: [
+          {
+            text: '示例',
+            items: [
+              { text: 'Markdown示例', link: '/zh/markdown-examples' },
+              { text: 'Runtime API示例', link: '/zh/api-examples' }
+            ]
+          }
+        ],
+    
+        socialLinks: [
+          { icon: 'github', link: 'https://github.com/alien-bo' }
+        ]
+      },
+    }
   }
 })
