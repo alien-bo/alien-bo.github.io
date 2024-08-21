@@ -42,16 +42,16 @@ export default defineConfig({
         // https://vitepress.dev/reference/default-theme-config
         nav: [
           { text: '主页', link: '/zh/' },
-          { text: '示例', link: '/zh/markdown-examples' }
+          { text: '简历', link: '/zh/CV' },
         ],
     
         sidebar: [
           {
-            text: '示例',
-            items: [
-              { text: 'Markdown示例', link: '/zh/markdown-examples' },
-              { text: 'Runtime API示例', link: '/zh/api-examples' }
-            ]
+            text: '简历',
+            link: '/zh/CV',
+            // items: [
+            //   { text: 'Markdown示例', link: '/zh/CV' }
+            // ]
           }
         ],
     
